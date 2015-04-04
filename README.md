@@ -1,1 +1,1 @@
-README.md
+Disclaimer: Netflix, and LG are registered trademarks and have no affiliation to this extension.
