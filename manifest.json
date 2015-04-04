@@ -1,7 +1,8 @@
 {
   "name": "Netflix Ultra Widescreen",
   "description": "True fullscreen for 21:10 Netflix videos on ultra-widescreen LG 34UM95.",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "minimum_chrome_version": "40",
   "permissions": [
     "declarativeContent",
     "activeTab"
@@ -10,6 +11,17 @@
     "scripts": ["js/widescreen.js"],
     "persistent": false
   },
+  "commands": {
+    "_execute_page_action": {
+      "suggested_key": {
+        "default": "Alt+W"
+      }
+    }
+  },
+  "options_ui": {
+    "page": "html/options.html",
+    "chrome_style": true
+  },
   "page_action": {
     "default_title": "Enable Widescreen",
     "default_icon": {
@@ -17,7 +29,9 @@
     }
   },
   "icons": {
-    "19": "img/icon_off_19.png"
+    "19": "img/icon_off_19.png",
+    "48": "img/icon_48.png",
+    "128": "img/icon_128.png"
   },
   "manifest_version": 2
 }
