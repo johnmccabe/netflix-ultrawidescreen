@@ -1,7 +1,7 @@
 {
   "name": "Netflix Ultra Widescreen",
   "description": "True fullscreen for 21:10 Netflix videos on ultra-widescreen LG 34UM95.",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "minimum_chrome_version": "40",
   "permissions": [
     "declarativeContent",
